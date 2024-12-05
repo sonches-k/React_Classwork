@@ -1,0 +1,39 @@
+.accordion {
+    border: 1px solid transparent;
+    margin-bottom: 1rem;
+    &:hover {
+      border-color: red; // светим красным при наведении на аккордеон
+    }
+  }
+  
+  .odd {
+    background-color: #000000; // черный для нечетных в темной теме
+    color: white;
+  
+    &.light {
+      background-color: #808080; // серый для нечетных в светлой теме
+    }
+    &.dark {
+      background-color: #000000;
+    }
+  }
+  
+  .even {
+    background-color: #0000ff; // синий для четных в темной теме
+    color: white;
+  
+    &.light {
+      background-color: #00bfff; // голубой для четных в светлой теме
+    }
+    &.dark {
+      background-color: #0000ff;
+    }
+  }
+  
+  // стили для первой буквы
+  .article-title .first-letter {
+    font-size: 2em;
+    color: red; //первая буква красная
+    display: inline-block;
+  }
+  
